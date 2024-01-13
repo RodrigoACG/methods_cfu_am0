@@ -22,7 +22,7 @@
 # In this method it's asking if the number if even, which it is so the output would be true. For example if we put .odd? instead of .even? it will produce the output of false becasue the number 12 is not odd.
 
 18.next
-# In this method it is saying to go to the next nuber so after the number 19 it goes to 19.  
+# In this method it is saying to go to the next number so after the number 18 it goes to 19.  
 
 
 
@@ -39,7 +39,14 @@
 # # The puts command prints the return value of the start_with? method (true) to the console.
 # first_name = "Jeff"
 # puts first_name.start_with?("J")
-
+first_name = "Rodrigo" 
+last_name = "Chavez"
+puts first_name.include?("R")
+# In this method it is checking if the letter "R" is in the first_name.
+puts first_name.upcase
+# In this method it is making all the letters upcase, so in that case it will be RODRIGO.    
+puts last_name.downcase
+# In this method it is doing the opposite of the last one it is making all the letters lower case.
 
 
 # # SECTION 3: Calling methods on variables assigned to integers.
